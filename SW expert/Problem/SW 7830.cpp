@@ -1,3 +1,4 @@
+// FAIL //
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 int Max;
@@ -118,5 +119,5 @@ int main(int argc, char** argv)
 		
 		
 	}
-	return 0;//Á¤»óÁ¾·á½Ã ¹İµå½Ã 0À» ¸®ÅÏÇØ¾ßÇÕ´Ï´Ù.
+	return 0;//ì •ìƒì¢…ë£Œì‹œ ë°˜ë“œì‹œ 0ì„ ë¦¬í„´í•´ì•¼í•©ë‹ˆë‹¤.
 }
