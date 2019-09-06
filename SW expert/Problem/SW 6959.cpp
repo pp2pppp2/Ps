@@ -7,10 +7,7 @@
 using namespace std;
 int main(int argc, char** argv)
 {
-	int K;
-	int i;
-	int a;
-	int cnt;
+	int K, i, a, cnt;
 	char input[1020];
 	vector<int> st;
 
