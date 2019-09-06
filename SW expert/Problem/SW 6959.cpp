@@ -26,27 +26,11 @@ int main(int argc, char** argv)
 		i = 0;
 		st.clear();
 		
-		while (input[i])
-		{
+		while (input[i]) {
 			st.push_back(input[i] - '0');
 			i++;
 		}
-
-		//while (input[i]){
-		//	if (input[i + 1]!='\0'){
-		//		a = input[i] + input[i + 1] - '0' - '0';
-		//		if (a > 9)
-		//			st.push_back(a / 10);
-		//		st.push_back(a % 10);
-		//		i += 2;
-		//		cnt++;
-		//	}
-		//	else if (input[i] - '0') { 
-		//		st.push_back(input[i]-'0');
-		//		i += 1;
-		//	}
-		//}
-
+		
 		while (!st.empty()){
 			a = 0;
 			a += st.back();
